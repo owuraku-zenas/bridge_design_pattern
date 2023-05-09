@@ -12,15 +12,20 @@ public class Main {
         Remote regularRemote = new Remote(radio);
         System.out.println(radio + "\n");
 
+
         regularRemote.togglePower();
+        System.out.println(radio + "\n");
+
         regularRemote.channelUp();
         regularRemote.volumeDown();
         System.out.println(radio + "\n");
+
 
         regularRemote.channelUp();
         regularRemote.volumeUp();
         regularRemote.volumeUp();
         System.out.println(radio + "\n");
+
 
         regularRemote.togglePower();
         System.out.println(radio + "\n");
@@ -32,6 +37,9 @@ public class Main {
 
 
         superRemote.togglePower();
+        System.out.println(tv + "\n");
+
+
         superRemote.changeVolume(80);
         superRemote.volumeUp();
         System.out.println(tv + "\n");
